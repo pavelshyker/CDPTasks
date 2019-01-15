@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="16" result="Failed" total="16" passed="11" failed="5" inconclusive="0" skipped="0" asserts="12" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-12-29 13:55:07Z" end-time="2018-12-29 13:55:09Z" duration="2.335526">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1021" name="UnitTestProject1.dll" fullname="UnitTestProject1.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.443814" total="16" passed="11" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="12">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit.org\nunit-console" machine-name="EPBYMINW6090" user="Pavel_Shyker" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Program Files (x86)\NUnit.org\nunit-console" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="57220" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1022" name="NUnitTests" fullname="NUnitTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.421236" total="16" passed="11" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="12">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="MultiplyMettodUnitTests" fullname="NUnitTests.MultiplyMettodUnitTests" classname="NUnitTests.MultiplyMettodUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.137536" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <test-case id="0-1001" name="MultiplyAreEqual" fullname="NUnitTests.MultiplyMettodUnitTests.MultiplyAreEqual" methodname="MultiplyAreEqual" classname="NUnitTests.MultiplyMettodUnitTests" runstate="Runnable" seed="2107201424" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.083546" asserts="1" />
+        <test-case id="0-1003" name="MultiplyNegative" fullname="NUnitTests.MultiplyMettodUnitTests.MultiplyNegative" methodname="MultiplyNegative" classname="NUnitTests.MultiplyMettodUnitTests" runstate="Runnable" seed="1172789497" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.015617" asserts="1" />
+        <test-case id="0-1002" name="MultiplyZero" fullname="NUnitTests.MultiplyMettodUnitTests.MultiplyZero" methodname="MultiplyZero" classname="NUnitTests.MultiplyMettodUnitTests" runstate="Runnable" seed="1314168832" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.001402" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1004" name="PowMettodUnitTests" fullname="NUnitTests.PowMettodUnitTests" classname="NUnitTests.PowMettodUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.175366" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1005" name="PowAreEqual1" fullname="NUnitTests.PowMettodUnitTests.PowAreEqual1" methodname="PowAreEqual1" classname="NUnitTests.PowMettodUnitTests" runstate="Runnable" seed="1742047585" result="Failed" label="Error" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.172135" asserts="0">
+          <failure>
+            <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+            <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTests.PowMettodUnitTests.PowAreEqual1() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 73]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1008" name="PowAreEqual2" fullname="NUnitTests.PowMettodUnitTests.PowAreEqual2" methodname="PowAreEqual2" classname="NUnitTests.PowMettodUnitTests" runstate="Runnable" seed="1316667801" result="Failed" label="Error" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.001152" asserts="0">
+          <failure>
+            <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+            <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTests.PowMettodUnitTests.PowAreEqual2() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 96]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1007" name="PowIsTrue" fullname="NUnitTests.PowMettodUnitTests.PowIsTrue" methodname="PowIsTrue" classname="NUnitTests.PowMettodUnitTests" runstate="Runnable" seed="115911308" result="Failed" label="Error" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000903" asserts="0">
+          <failure>
+            <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+            <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTests.PowMettodUnitTests.PowIsTrue() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 88]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1006" name="PowZero" fullname="NUnitTests.PowMettodUnitTests.PowZero" methodname="PowZero" classname="NUnitTests.PowMettodUnitTests" runstate="Runnable" seed="1392272620" result="Failed" label="Error" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000863" asserts="0">
+          <failure>
+            <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+            <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at NUnitTests.PowMettodUnitTests.PowZero() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 80]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1009" name="SinMettodUnitTests" fullname="NUnitTests.SinMettodUnitTests" classname="NUnitTests.SinMettodUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.002264" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="0-1010" name="SinIsTrue" fullname="NUnitTests.SinMettodUnitTests.SinIsTrue" methodname="SinIsTrue" classname="NUnitTests.SinMettodUnitTests" runstate="Runnable" seed="1697777790" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.001849" asserts="1" />
+        <test-case id="0-1011" name="SinZero" fullname="NUnitTests.SinMettodUnitTests.SinZero" methodname="SinZero" classname="NUnitTests.SinMettodUnitTests" runstate="Runnable" seed="1894583710" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000219" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1012" name="SqrtMettodUnitTests" fullname="NUnitTests.SqrtMettodUnitTests" classname="NUnitTests.SqrtMettodUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.095195" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1015" name="SqrtAreEqual1" fullname="NUnitTests.SqrtMettodUnitTests.SqrtAreEqual1" methodname="SqrtAreEqual1" classname="NUnitTests.SqrtMettodUnitTests" runstate="Runnable" seed="1695311198" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000521" asserts="1" />
+        <test-case id="0-1016" name="SqrtAreEqual2" fullname="NUnitTests.SqrtMettodUnitTests.SqrtAreEqual2" methodname="SqrtAreEqual2" classname="NUnitTests.SqrtMettodUnitTests" runstate="Runnable" seed="543839467" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000215" asserts="1" />
+        <test-case id="0-1013" name="SqrtIsTrue" fullname="NUnitTests.SqrtMettodUnitTests.SqrtIsTrue" methodname="SqrtIsTrue" classname="NUnitTests.SqrtMettodUnitTests" runstate="Runnable" seed="1846769251" result="Failed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.094018" asserts="1">
+          <failure>
+            <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+            <stack-trace><![CDATA[   at NUnitTests.SqrtMettodUnitTests.SqrtIsTrue() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 168
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at NUnitTests.SqrtMettodUnitTests.SqrtIsTrue() in C:\Users\Pavel_Shyker\source\repos\UnitTestProject1\UnitTestProject1\Assertions\NUnitTests.cs:line 168
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1014" name="SqrtZero" fullname="NUnitTests.SqrtMettodUnitTests.SqrtZero" methodname="SqrtZero" classname="NUnitTests.SqrtMettodUnitTests" runstate="Runnable" seed="507070384" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000243" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1017" name="SubMettodUnitTests" fullname="NUnitTests.SubMettodUnitTests" classname="NUnitTests.SubMettodUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.001822" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <test-case id="0-1020" name="SinZero" fullname="NUnitTests.SubMettodUnitTests.SinZero" methodname="SinZero" classname="NUnitTests.SubMettodUnitTests" runstate="Runnable" seed="659502992" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000591" asserts="1" />
+        <test-case id="0-1018" name="SubAreEqual" fullname="NUnitTests.SubMettodUnitTests.SubAreEqual" methodname="SubAreEqual" classname="NUnitTests.SubMettodUnitTests" runstate="Runnable" seed="2035604480" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000276" asserts="1" />
+        <test-case id="0-1019" name="SubNegative" fullname="NUnitTests.SubMettodUnitTests.SubNegative" methodname="SubNegative" classname="NUnitTests.SubMettodUnitTests" runstate="Runnable" seed="1142189883" result="Passed" start-time="2018-12-29 13:55:09Z" end-time="2018-12-29 13:55:09Z" duration="0.000777" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

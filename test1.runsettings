@@ -1,0 +1,9 @@
+<RunSettings>
+<!-- MSTest adapter -->  
+  <MSTest>
+    <Parallelize>
+      <Workers>8</Workers>
+      <Scope>ClassLevel</Scope>
+    </Parallelize>
+  </MSTest>
+</RunSettings>

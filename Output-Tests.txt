@@ -1,0 +1,43 @@
+﻿[12/25/2018 6:54:52 PM Informational] ------ Run test started ------
+[12/25/2018 6:54:57 PM Informational] ========== Run test finished: 1 run (0:00:04.7190179) ==========
+[12/25/2018 6:55:12 PM Informational] ------ Run test started ------
+[12/25/2018 6:55:13 PM Informational] ========== Run test finished: 1 run (0:00:01.2178966) ==========
+[12/25/2018 6:55:41 PM Warning] The build was canceled or Failed.
+[12/25/2018 6:56:00 PM Informational] ------ Run test started ------
+[12/25/2018 6:56:01 PM Informational] ========== Run test finished: 1 run (0:00:01.1718622) ==========
+[12/25/2018 7:42:04 PM Informational] ------ Run test started ------
+[12/25/2018 7:42:05 PM Informational] ========== Run test finished: 3 run (0:00:01.7580557) ==========
+[12/25/2018 8:36:59 PM Informational] ------ Run test started ------
+[12/25/2018 8:37:00 PM Informational] ========== Run test finished: 4 run (0:00:01.7833118) ==========
+[12/25/2018 8:47:14 PM Informational] ------ Run test started ------
+[12/25/2018 8:47:16 PM Informational] ========== Run test finished: 4 run (0:00:01.8076356) ==========
+[12/25/2018 9:21:54 PM Informational] ------ Run test started ------
+[12/25/2018 9:21:56 PM Informational] ========== Run test finished: 5 run (0:00:01.764198) ==========
+[12/25/2018 10:36:55 PM Informational] ------ Run test started ------
+[12/25/2018 10:36:57 PM Informational] ========== Run test finished: 5 run (0:00:01.5100253) ==========
+[12/25/2018 10:37:47 PM Informational] ------ Run test started ------
+[12/25/2018 10:37:49 PM Informational] ========== Run test finished: 5 run (0:00:01.1948134) ==========
+[12/25/2018 10:38:07 PM Informational] ------ Run test started ------
+[12/25/2018 10:38:08 PM Informational] ========== Run test finished: 5 run (0:00:01.1883701) ==========
+[12/25/2018 10:41:21 PM Informational] ------ Run test started ------
+[12/25/2018 10:41:22 PM Informational] ========== Run test finished: 5 run (0:00:01.4479838) ==========
+[12/25/2018 10:47:21 PM Informational] ------ Run test started ------
+[12/25/2018 10:47:23 PM Informational] ========== Run test finished: 6 run (0:00:01.7612011) ==========
+[12/25/2018 10:47:53 PM Informational] ------ Run test started ------
+[12/25/2018 10:47:54 PM Informational] ========== Run test finished: 5 run (0:00:01.3639264) ==========
+[12/25/2018 11:15:35 PM Informational] ------ Run test started ------
+[12/25/2018 11:15:36 PM Informational] ========== Run test finished: 1 run (0:00:01.2928832) ==========
+[12/25/2018 11:16:38 PM Informational] ------ Run test started ------
+[12/25/2018 11:16:39 PM Informational] ========== Run test finished: 2 run (0:00:01.6971529) ==========
+[12/25/2018 11:22:57 PM Informational] ------ Run test started ------
+[12/25/2018 11:22:58 PM Informational] ========== Run test finished: 7 run (0:00:01.2798609) ==========
+[12/25/2018 11:23:59 PM Informational] ------ Run test started ------
+[12/25/2018 11:24:00 PM Informational] ========== Run test finished: 7 run (0:00:01.758183) ==========
+[12/25/2018 11:26:41 PM Informational] ------ Run test started ------
+[12/25/2018 11:26:42 PM Informational] ========== Run test finished: 7 run (0:00:01.2878669) ==========
+[12/25/2018 11:28:56 PM Informational] ------ Run test started ------
+[12/25/2018 11:28:57 PM Informational] ========== Run test finished: 7 run (0:00:01.3258925) ==========
+[12/25/2018 11:29:05 PM Informational] ------ Run test started ------
+[12/25/2018 11:29:06 PM Informational] ========== Run test finished: 7 run (0:00:01.3058769) ==========
+[12/25/2018 11:30:32 PM Informational] ------ Run test started ------
+[12/25/2018 11:30:34 PM Informational] ========== Run test finished: 7 run (0:00:01.766189) ==========
